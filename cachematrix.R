@@ -3,6 +3,7 @@
 ##
 
 ## makeCacheMatrix creates a special matrix which is capable of caching its inverse
+## It takes a matrix as an argument
 ## It contains a function which :
 ## 1. set the value of the matrix
 ## 2. get the value of the matrix
@@ -27,11 +28,11 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-##cacheSolve computes the inverse of a special matrice created by MakeCacheMatrix
+##cacheSolve computes the inverse of a special matrix created by MakeCacheMatrix
 ##The function also caches the results. As such, if the function is called with
 ##the same argument(s), it won't compute the inverse matrice but return the cached 
 ##value.
-
+## It takes a special matrix as an argument
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
   inv <- x$get_inverse()
