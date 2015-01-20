@@ -13,7 +13,7 @@ To test the function here are some examples :
  ms <- makeCacheMatrix(m)
  invm <- cacheSolve(ms)
  invm %*% m
- ``` r
+ ```
 2. Demonstrate the cache function
  ``` r
  x <- c(47895, 81452547, 10)
