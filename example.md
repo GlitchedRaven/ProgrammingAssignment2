@@ -3,8 +3,7 @@
 
 To test the function here are some examples :
 
-1. Create a invertible matrix, compute its inverse and test it 
-
+*Create a invertible matrix, compute its inverse and test it* 
 ``` r
  x <- c(1, 8, 69)
  y <- c(1, 75, 7)
@@ -14,7 +13,7 @@ To test the function here are some examples :
  invm <- cacheSolve(ms)
  invm %*% m
  ```
-2. Demonstrate the cache function
+*Demonstrate the cache function*
  ``` r
  
  x <- c(47895, 81452547, 10)
