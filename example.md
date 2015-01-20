@@ -16,6 +16,7 @@ To test the function here are some examples :
  ```
 2. Demonstrate the cache function
  ``` r
+ 
  x <- c(47895, 81452547, 10)
  y <- c(1447896, 5, 777)
  z <- c(45789, 87, 121545)
